@@ -32,12 +32,15 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
 								<li><a href="#portfolio" id="Full-Portfolio"><span class="icon solid fa-file">Portfolio</span></a></li>
 								<hr/>
-								<li><a href="#projects" id="projects-link"><span class="icon solid fa-th">Project Overview</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#grapple" id="projects-link"><span class="icon solid fa-gamepad">Grapple Run</span></a></li>
+								<li><a href="#fifteen" id="about-link"><span class="icon solid fa-puzzle-piece">Combinatorial Problem</span></a></li>
+								<li><a href="#landscape" id="contact-link"><span class="icon solid fa-globe">OpenGL Landscape</span></a></li>
+								<li><a href="#goose" id="contact-link"><span class="icon solid fa-cube">Unoriginal Goose Game</span></a></li>
+								<li><a href="#golf" id="contact-link"><span class="icon solid fa-circle">Weird Golf Game</span></a></li>
+								<li><a href="#tea" id="contact-link"><span class="icon  solid fa-coffee">Untitled Tea Game</span></a></li>
 							</ul>
 						</nav>
 
@@ -47,10 +50,10 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon brands fa-gitlab"><span class="label">Gitlab</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
 						</ul>
 
 				</div>
@@ -68,13 +71,13 @@
 							</header>
 
 							<p>
-								This is a game I worked on during my final year of my BSc. I made the game in Unity using assets off of the Unity asset store. <br/>
-								The game is a simple 2D platformer, where the player traverses through the levels until the run off screen, however, the game is designed to only
+								This is a game I worked on during the final year of my BSc. I made the game in <a href="https://unity.com">Unity</a> using assets off of the Unity asset store. <br/>
+								The game is a simple 2D platformer, where the player traverses through the levels until they run off-screen at the end of the level. However, the game is designed to only
 								be traversable via the grapplehook the player starts with. The player uses the grapplehook to swing over obstacles, lower themselves down and pull 
 								themselves up, as well as a tool for defeating enemies.
 							</p>
 							<p>
-								The game was made to a deadline, and is currently in an unfinished state. I plan to finish the game in the future, which will include:
+								The game was made to a deadline and is currently unfinished. I plan to finish the game in the future, which will include:
 								<ul>
 									<li> Reorganising the code in the scripts </li>
 									<li> Changing how the rope interacts with the world (Making it bend around objects, and behave like a rope </li>
@@ -85,28 +88,61 @@
 								</ul>
 							</p>
 							
-
 							<div>
 								<article class="item">
-									<div id="gameContainer" style="margin: auto"></div>
+									<!-- <div id="gameContainer" style="margin: auto"></div> -->
 									<header>
-										<h3>Weird Golf Game - Fast Prototype <br/> Game Technology Innovations Coursework</h3>
+										<h3>Grapple Run - Playable Game</h3>
 									</header>
 								</article>
 							</div>
+						</div>
+					</section>
+					
+					<!-- Combinatorial Problem -->
+					<section id="fifteen" class="three">
+						<div class="container" style="text-align: center;">
+
+							<header>
+								<h2>Combinatorial Problem</h2>
+							</header>
+
+							<article class="item" style="width:854px; margin:auto;">
+								
+								<header>
+									Photos of Program running - coming soon
+								</header>
+							</article>
+
+							<p>
+								For my 'Advanced Programming for Games' module. I was given the task to write a program that could calculate the number of possible consecutive rows and columns (including inverse) that could appear on a given configuration of a <a href="https://en.wikipedia.org/wiki/15_puzzle"> 15-Puzzle </a>. <br/>
+							
+								I originally made a brute force approach to solve this problem, however, the coursework specified that we should be able to modify the code to allow for puzzles of X by X size. I realised that it would not be suitable to bruteforce puzzles of a larger size, and figured out that using an equation involving factorials would generate more correct results. <br/>
+
+								Even after implementing the equation, a problem was that the numbers generated from puzzles larger than a 6 by  6 grid generated results that were bigger than an unsigned long long. To solve this problem I used an external library, <a href="https://sercantutar.github.io/infint/"> InfInt by Sercan Tutar</a>, which allowed puzzles up to, much larger sizes such as  a 50 by 50 grid. <br/>
+
+								I attempted to use threading to make the program run faster. I was unsuccessful and in most cases, the use of threading ended up making the program run slower.
+							<p>
+								I have no plans to return to this project, however, if I were to do it again I would make a few changes to the way I implemented the program.
+								<ul>
+									<li> I would attempt to improve the threading, so it boosts performance instead of reducing it. </li>
+									<li> I would make use of templates so the program wasn't limited to integers in the puzzle </li>
+									<li> I would improve the user interface, so the user doesn't have to use the command line </li>
+								</ul>
+							</p>
 
 						</div>
 					</section>
 
 				<!-- Landscape in Open GL -->
-					<section id="landscape" class="three" style="text-align: center;">
-						<div class="container" style="margin:auto;">
+					<section id="landscape" class="four">
+						<div class="container" style="text-align: center;">
 
 							<header>
 								<h2>Landscape in OpenGL</h2>
 							</header>
 
-							<article class="item" style="width:854px; text-align: center;">
+							<article class="item" style="width:854px; margin:auto;">
 								<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/xp9R4gXOWOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 								</iframe>
 								<header>
@@ -114,12 +150,111 @@
 								</header>
 							</article>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>
+								For my 'Advanced Graphics for Games' module, I used <strong> OpenGL </strong> and <strong> GLSL </strong> to generate
+								a changing landscape. Using a Tesselation Shader I was able to turn a quad into many points, which when combined with a geometry shader, allowed me to generate an effect looking like rain. Using glScissor I was able to remove an area of the screen which had been rendered, so I could then render a minimap in the location I cut out.
+							</p>
+							<p>
+								This project was made to a deadline. It is mostly complete, however, there are a few additions I would make if I were to continue development on this project.
+								<ul>
+									<li> I would make the river be generated by an equation, rather than being generated from the textures I pass to the shader </li>
+									<li> I would use an example of deferred rendering </li>
+									<li> I would make the rain more obvious by using the geometry shader to make each coordinate a quad rather than a point</li>
+									<li> I would improve the shadows, so the hills cast them onto other hills </li>
+									<li> I would also use post-processing to produce a bloom effect </li>
+								</ul>
+							</p>
+
+						</div>
+					</section>
+					
+					<!-- Unoriginal Goose Game -->
+					<section id="goose" class="three">
+						<div class="container" style="text-align: center;">
+
+							<header>
+								<h2>Unoriginal Goose Game</h2>
+							</header>
+
+							<article class="item" style="width:854px; margin:auto;">
+								<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/foNWs-gfAv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+								</iframe>
+								<header>
+									Game Trailer Style Video
+								</header>
+							</article>
+
+							<p>
+								For my 'Advanced Game Technologies' I was given a specification for a game inspired by <a href="https://goose.game">Untitled Goose Game</a>. The purpose of this assignment was to implement features commonly found in games, the assignment was split into two parts <strong> Physics </strong> and <strong> Networking</strong>.
+							</p>
+							
+							<p>
+								As part of implementing Physics, I implemented a collision detection system which worked for AABB/AABB, AABB/Shere, Sphere/Sphere and, Sphere/OBB collisions. I used constraints to make a rope bridge that droops and to make a gate that opens when a player attempts to walk through it.
+							</p>
+							<p>
+								The game also allows networking, one player hosts a game as a server, and allows another player (client) to connect. Player position is sent using packets between both players to allow move and collide with each other.
+							</p>
+							<p>
+								The project was limited by time, unfortunately, this meant that there were bugs leftover in the code, most notably in the networking section. Players can not see when other players drop items, or when enemies are chasing other players. To fix this I could send a message to the server when a player drops their current item. I would also need to change the AI for the enemies to make sure they check both players. However, instead, to improve this project I would:
+								
+								<ul>
+									<li> Calculate the physics and game state on the server then send the position of the objects to each player using delta packets instead. </li>
+									<li> I would also, add artificial lag to the server owner to prevent an unfair advantage due to 0 ping. </li>
+									<li> I would either attempt to implement more OBB collisions myself or replace the code I implemented with a physics engine, such as PhysX </li>
+								</ul>
+							</p>
+						</div>
+					</section>
+					
+					<!-- Weird Golf Game -->
+					<section id="golf" class="two">
+						<div class="container" style="text-align: center;">
+
+							<header>
+								<h2>Weird Golf Game</h2>
+								<h3> Prototype</h3>
+							</header>
+							
+							<article class="item" style="width:854px; margin:auto;">
+								<header>
+									Gameplay Video - Coming Soon
+								</header>
+							</article>
+							
+							<article class="item" style="width:854px; margin:auto;">
+								<header>
+									Playable Demo - Coming Soon
+								</header>
+							</article>
+
+							<p>
+								As part of our group project, we have been asked to make a Golf Game with unusual/interesting effects. We were asked to make a prototype using an engine such as <a href="https://unity.com">Unity</a>. I focused on rotating the floor and letting gravity move the player, instead of traditional player movement. I made two levels using this concept. One which moves the rotates the floor either left or right as the player rolls downhill to a goal and another which moves the floor respective to the view of the camera (Pressing the forward key makes the floor directly in front go down, so the player rolls forward.
+							</p>
+							<p>
+								For a prototype, I am happy with the outcome. Both levels, while small, are enjoyable and work as intended. We have not made any decisions as a team as to whether or not we are using this as a mechanic for a level yet. However, doing so has made the option easier to implement if we do decide to.
+							</p>
+						</div>
+					</section>
+					
+					<!-- Tea Game -->
+					<section id="tea" class="three">
+						<div class="container">
+							<header>
+								<h2>Untitled Tea Game</h2>
+							</header>
+							<p>
+								This is a game I am making in <a href="https://unity.com">Unity</a>, in my free time. I am making slow progress, but I am using this project as an opportunity to get a better understanding of the unity engine.
+								
+								The idea of the game is to run a tea shop, ordering tea treas and processing them into tea leaves to prepare for customers at your shop, earning money allowing you to expand the shop.
+							</p>
+
+							<div>
+								<article class="item">
+									<header>
+										<h3>Playable Demo - Coming Soon</h3>
+									</header>
+								</article>
+							</div>
 
 						</div>
 					</section>
