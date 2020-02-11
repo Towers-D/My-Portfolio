@@ -72,6 +72,9 @@ input, select, textarea {
 	appearance: none;
 }
 
+#nav ul hr {
+	margin: auto 1.5em;
+}
 /* Basic */
 
 	html {
@@ -193,7 +196,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #ddd;
+		border-top: solid 1px #41484c;
 	}
 
 	blockquote {
@@ -248,6 +251,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#nav ul hr {
+				margin: auto 1.25em;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
