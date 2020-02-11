@@ -4,6 +4,6 @@ $(function width() {
 	div.css('height', ((width/16)*9));
 });
 
-$(window.resize(function() {
+$(window).resize(function() {
 	width();
 });
