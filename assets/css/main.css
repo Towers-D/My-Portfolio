@@ -1776,6 +1776,9 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
+		div article.fif {
+			width: 350px;
+		}
 
 		.image.avatar48 {
 			width: 48px;
