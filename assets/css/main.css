@@ -2271,6 +2271,10 @@ input, select, textarea {
 				background-size: cover;
 				background-position: center center;
 			}
+			
+			.one .container header {
+				text-shadow: 0px 0px 15px #000, 0px 0px 15px #000, 0px 0px 15px #000;
+			}
 
 			#main > section.one {
 				background-color: #81918E;
