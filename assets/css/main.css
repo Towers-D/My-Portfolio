@@ -2275,7 +2275,16 @@ input, select, textarea {
 			.one .container header {
 				text-shadow: 0px 0px 15px #000, 0px 0px 15px #000, 0px 0px 15px #000;
 			}
-
+			
+			.noPad img{
+				width: calc(100% + 4em);
+				margin-left: -2em;
+			}
+			
+			.contact img {
+				box-shadow: 0px 0px 5px #000;
+			}
+			
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
