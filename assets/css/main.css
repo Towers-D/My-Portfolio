@@ -33,6 +33,23 @@ body {
 	line-height: 1;
 }
 
+.divCard {
+	text-align: left;
+	background-color: white;
+	padding: 1.25em;
+}
+
+.divCard ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.divCard ul li{
+	flex: 0 0 auto;
+	width: 50%;
+	padding-right: 1.25em;
+}
+
 ol, ul {
 	list-style: none;
 }
