@@ -2276,9 +2276,24 @@ input, select, textarea {
 				text-shadow: 0px 0px 15px #000, 0px 0px 15px #000, 0px 0px 15px #000;
 			}
 			
-			.noPad img{
+			.noPad{
+				text-align: center;
 				width: calc(100% + 4em);
 				margin-left: -2em;
+			}
+			
+			.cite {
+				position:relative;
+			}
+			
+			.cite .citable {
+				font-size: 12px;
+				color: white;
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				padding: 0 10px;
+				background: rgba(0, 0, 0, 0.3);
 			}
 			
 			.contact img {
