@@ -130,6 +130,15 @@ input, select, textarea {
 		color: #888;
 	}
 
+	.hov {
+		display: inline-block;	
+		color: #FFF;
+	}
+
+	.hov:hover {
+		color: #E27689;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
@@ -183,7 +192,7 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	a {
+	a, .hov{
 		text-decoration: none;
 		color: inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
@@ -2108,7 +2117,7 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			#header .icons a {
+			#header .icons a .hov{
 				color: #41484c;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
