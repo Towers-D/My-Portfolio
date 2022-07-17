@@ -34,7 +34,7 @@
 			.on('click', function(e) {
 
 				var $this = $(this);
-
+					
 				// External link? Bail.
 					if ($this.attr('href').charAt(0) != '#')
 						return;
@@ -52,7 +52,10 @@
 
 			})
 			.each(function() {
-
+				if  ($(this).attr('href').charAt(0) == '/'){
+					console.log("Boyo")
+					return
+				}
 				var	$this = $(this),
 					id = $this.attr('href'),
 					$section = $(id);
