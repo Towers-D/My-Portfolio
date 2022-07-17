@@ -9,15 +9,14 @@
 		<title>David Towers - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script src="https://kit.fontawesome.com/821c7a256a.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<div id="header">
-
 				<div class="top">
-
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar48"><img src="images/profile.png" alt="Photo of me" /></span>
@@ -31,13 +30,11 @@
 								<li><a href="/" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
 								<li><a href="#portfolio" id="Full-Portfolio"><span class="icon solid fa-archive">Portfolio</span></a></li>
 								<hr/>
+								<li><a href="#reproducibilty" id="projects-link"><span class="icon solid fa-file-text"> Reproducibility for NAS</span></a></li>
 								<li><a href="#grapple" id="projects-link"><span class="icon solid fa-gamepad">Grapple Run</span></a></li>
 								<li><a href="#E2EE" id="projects-link"><span class="icon solid fa-comment-dots">E2EE Plugin</span></a></li>
 								<li><a href="#fifteen" id="projects-link"><span class="icon solid fa-puzzle-piece">Combinatorial Problem</span></a></li>
 								<li><a href="#landscape" id="projects-link"><span class="icon solid fa-mountain">OpenGL Landscape</span></a></li>
-								<li><a href="#goose" id="projects-link"><span class="icon solid fa-feather">Unoriginal Goose Game</span></a></li>
-								<li><a href="#golf" id="projects-link"><span class="icon solid fa-golf-ball">Weird Golf Game</span></a></li>
-								<li><a href="#water" id="projects-link"><span class="icon solid fa-tint">Water Conservation Game</span></a></li>
 							</ul>
 						</nav>
 
@@ -61,314 +58,206 @@
 
 		<!-- Main -->
 			<div id="main">
+				<!-- LTRFNAS Paper -->
+				<section id="reproducibilty" class="two">
+					<div class="container">
+						<header>
+							<h2> Long-term Reproducibility for Neural Architecture Search</h2>
+							<h4> Technologies used: <strong> <span class="fab fa-python"></span> Python 2 & 3 </strong> </h4>
+							<h5> <a href="https://gitlab.com/D-Towers/nas-reproducibility" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
+						</header>
+
+						<article class="item" style="max-width: fit-content; margin:auto;">
+							<div class="image fit"><img src="images/repro-table.png" alt="Menu from Grapple Run" /></div>
+							<header>
+								<h3> Proposed Checklist to increase the level of reproducibility of NAS.</h3>
+							</header>
+						</article>
+
+						<p>
+							I submitted a four-page extended abstract to the Third Workshop on Neural Architecture Search at CVPR 2022. 
+							The paper was entitled "Long-term reproducibility for Neural Architecture Search" and discussed issues that
+							occur in the field of NAS when trying to reproduce NAS algorithms. The paper also proposes a checklist (see above)
+							that we hope will increase the level of reproducibility of NAS algorithms developed by following it.
+						</p>
+						<p>
+							The paper can be found on arXiv <a href="https://arxiv.org/abs/2207.04821">here</a>.
+						</p>
+					</div>
+				</section>
+
 				<!-- Grapple Run -->
-					<section id="grapple" class="two">
-						<div class="container">
-							<header>
-								<h2>Grapple Run</h2>
-								<h4> Technologies used: <strong> C# | <span class="fab fa-unity"></span> Unity </strong> </h4>
-								<h5> <a href="https://gitlab.com/Zoko11/grapplerun" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
-							</header>
-							
+				<section id="grapple" class="three">
+					<div class="container">
+						<header>
+							<h2>Grapple Run</h2>
+							<h4> Technologies used: <strong> C# | <span class="fab fa-unity"></span> Unity </strong> </h4>
+							<h5> <a href="https://gitlab.com/D-Towers/grapplerun" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
+						</header>
+						
+						<article class="item">
+									<a href="grapple" class="screenshots image fit"><img src="images/GR/menu.png" alt="Menu from Grapple Run" /></a>
+									<header>
+										<h3> Grapple Run - Picture of the main menu</h3>
+									</header>
+						</article>
+
+						<p>
+							This is a game I worked on during the final year of my BSc. I made the game in <a href="https://unity.com">Unity</a> using assets off of the Unity asset store. <br/>
+							The game is a simple 2D platformer, where the player traverses through the levels until they run off-screen at the end of the level. However, the game is designed to only
+							be traversable via the grapplehook the player starts with. The player uses the grapplehook to swing over obstacles, lower themselves down and pull 
+							themselves up, as well as a tool for defeating enemies. The game was made to a deadline over only a few months and only has four levels.
+						</p>
+						<p>
+							A playable version of the game can be found <a href="grapple">here</a>.
+						</p>
+						
+						<div>
 							<article class="item">
-										<a href="grapple" class="screenshots image fit"><img src="images/GR/menu.png" alt="Menu from Grapple Run" /></a>
-										<header>
-											<h3> Grapple Run - Picture of the main menu</h3>
-										</header>
+									<a href="grapple" class="screenshots image fit"><img src="images/GR/game.png" alt="Mid Game in Grapple Run" /></a>
+									<header>
+										<h3> Grapple Run picture of game being played</h3>
+									</header>
 							</article>
+						</div>
+					</div>
+				</section>
 
-							<p>
-								This is a game I worked on during the final year of my BSc. I made the game in <a href="https://unity.com">Unity</a> using assets off of the Unity asset store. <br/>
-								The game is a simple 2D platformer, where the player traverses through the levels until they run off-screen at the end of the level. However, the game is designed to only
-								be traversable via the grapplehook the player starts with. The player uses the grapplehook to swing over obstacles, lower themselves down and pull 
-								themselves up, as well as a tool for defeating enemies.
-							</p>
-							<p>
-								A playable version of the game can be found <a href="grapple">here</a>.
-							</p>
-							<p>
-								The game was made to a deadline and is currently unfinished. However, as I am starting a PhD, I have no plans to complete at this time.
-							</p>
+				<!-- E2EE -->
+				<section id="E2EE" class="four">
+					<div class="container">
+
+						<header>
+							<h2>End-to-End Encryption Plugin</h2>
+							<h4> Technologies used: <strong> <span class="fab fa-html5"></span> HTML | <span class="fab fa-css3-alt"></span> CSS | <span class="fab fa-js-square"></span> JS</strong></h4>
+							<h5> <a href="https://gitlab.com/D-Towers/dissertation/" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
+						</header>
+
+						<article class="item enc" style="margin:auto">
+									<div class="image fit"><img src="images/E2EE/menu.png" alt="Menu of E2EE Plugin" /></div>
+									<header>
+										<h3> Encryption Plugin</h3>
+									</header>
+						</article>
+
+						<p>
+							For my BSc dissertation, I decided to make a chrome extension to provide end-to-end encryption across websites that don't offer it. 
+							This was motivated due to the lack of security that many companies employ over private messages and the amount of data these companies collect
+							and sell from private messages. In some cases, you could stop using the service to avoid these practices. However, this is not always a option
+							as you may still wish to use the service or may be required to.
+						</p>
+						<p>
+							For these reasons I used JavaScript to develop a plugin to allow encryption over unencrypted services. The plugin generated RSA keys 
+							to encrypt a shared AES key, that would be stored locally and used to encrypt and decrypt messages without entering the cleartext into the service 
+							of choice. At the time of developmen, this plugin was unqiue to others as it only used RSA (a slow encryption standard) to set-up a secure AES key,
+							which is much faster.
+						</p>
+						<p>
+							While the plugin worked, services that I used to test the plugin have changed how they structure html which has caused the plugin to break.
+							It was the first time I had used JavaScript for a project this big, and if I were to do it again, I would be able to make the code more generalisable
+							and cleaner. I would probably also switch to TypeScript.
+						</p>
+
+						<article id="cipher" class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/E2EE/befdec.png" alt="Screenshot of Cipher Text" /></div>
+							<header>
+								Screenshot of recieved Cipher Text, encrypted using the plugin
+							</header>
+						</article>
+						<br/>
+						<article id="clear" class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/E2EE/aftdec.png" alt="Screenshot of Clear Text" /></div>
+							<header>
+								Screenshot of Clear Text, decrypted using the plugin
+							</header>
+						</article>
+					</div>
+				</section>
+				
+				<!-- Combinatorial Problem -->
+				<section id="fifteen" class="three">
+					<div class="container" style="text-align: center;">
+
+						<header>
+							<h2>Combinatorial Problem</h2>
+							<h4>Technologies used: <strong> C++ </strong> </h4>
+							<h5> <a href="https://github.com/Towers-D/CSC8501-Coursework" class="icon brands fa-github"> Github Repository </a> </h5>
+						</header>
+
+						<article class="item fif" style="margin:auto;">
+							<div class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/15-puzzle_magical.svg/220px-15-puzzle_magical.svg.png" alt="Picture of 15-Puzzle" /></div>
 							
-							<div>
-								<article class="item">
-										<a href="grapple" class="screenshots image fit"><img src="images/GR/game.png" alt="Mid Game in Grapple Run" /></a>
-										<header>
-											<h3> Grapple Run picture of game being played</h3>
-										</header>
-								</article>
-							</div>
-						</div>
-					</section>
-
-					<!-- E2EE -->
-					<section id="E2EE" class="three">
-						<div class="container">
-
 							<header>
-								<h2>End-to-End Encryption Plugin</h2>
-								<h4> Technologies used: <strong> <span class="fab fa-html5"></span> HTML | <span class="fab fa-css3-alt"></span> CSS | <span class="fab fa-js-square"></span> JS</strong></h4>
-								<h5> <a href="https://gitlab.com/D-Towers/dissertation/" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
+								Image of 15-Puzzle, from <a href="https://en.wikipedia.org/wiki/15_puzzle" class="icon brands fa-wikipedia-w"> Wikipedia </a>
 							</header>
+						</article>
 
-							<article class="item enc" style="margin:auto">
-										<div class="image fit"><img src="images/E2EE/menu.png" alt="Menu of E2EE Plugin" /></div>
-										<header>
-											<h3> Encryption Plugin</h3>
-										</header>
-							</article>
-
-							<p>
-								For my BSc dissertation, I decided to make a chrome extension to provide end-to-end encryption across websites that don't offer it. Many websites store peoples private messages in plain text, secured only by the websites security. This has led to data breaches where peoples personal and private information is leaked to the world. Furthermore, even websites with strong security, sell users private data to advertising companies.
-							</p>
-
-							<p>
-								While in some cases an appropriate solution to the issue could be to stop using the service if you wish to avoid these practices. However, this is not always a suitable or possible option. Jobs may use/have partnered  with companies that use these practices that offer internal email of office services, or for a variety of reasons, such as communication, you may need or want to remain on such services.
-							</p>
-							<p>
-								For these reasons I used JavaScript to develop a plugin to allow encryption over unencrypted services. The plugin worked, by generting RSA keys to encrypt a shared AES key, that would be stored locally and used to encrypt and decrypt messages without entering the cleartext into the service of choice. When I decided to create the plugin, there were other plugins which did similar things. However, the ones that I found relied mainly on RSA encryption, and did not use AES. Asymmetric ciphers are not reccomended for this, as they are slower than symmetric ciphers which is why I decided to incoporate this feature.
-							</p>
-							<p>
-								The plugin worked as intended, passing all unit tests, and allowing the encryption and decryption of messages without inputting the clear text into the service. However, certain services have changed how they structure internal paragraphs in html, which created errors in the code. It was also the first time I used JavaScript for a project of this size and had not used await and async functions before. If I return to this project, I may instead look into using a different language such as Python or a variant of JavaScript (such as TypeScript) to create the plugin instead.
-							</p>
-
-                            <article id="cipher" class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/E2EE/befdec.png" alt="Screenshot of Cipher Text" /></div>
-								<header>
-									Screenshot of recieved Cipher Text, encrypted using the plugin
-								</header>
-							</article>
-							<br/>
-							<article id="clear" class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/E2EE/aftdec.png" alt="Screenshot of Clear Text" /></div>
-								<header>
-									Screenshot of Clear Text, decrypted using the plugin
-								</header>
-							</article>
-						</div>
-					</section>
-					
-					<!-- Combinatorial Problem -->
-					<section id="fifteen" class="four">
-						<div class="container" style="text-align: center;">
-
+						<p>
+							For my 'Advanced Programming for Games' module. I was given the task to write a program that could calculate the number of possible consecutive 
+							rows and columns (including inverse) that could appear on a given configuration of a <a href="https://en.wikipedia.org/wiki/15_puzzle"> 15-Puzzle </a>.						</p>
+						<p>
+							I originally made a brute force approach to solve this problem, however, the coursework specified that we should be able to modify the code to allow for puzzles of X by X size. I realised that it would not be suitable to bruteforce puzzles of a larger size, and figured out that using an equation involving factorials would generate more correct results. <br/>
+						</p>
+						<p>
+							Even after implementing the equation, a problem was that the numbers generated from puzzles larger than a 6 by  6 grid generated results that were bigger than an unsigned long long. To solve this problem I used an external library, <a href="https://sercantutar.github.io/infint/"> InfInt by Sercan Tutar</a>, which allowed puzzles up to, much larger sizes such as  a 50 by 50 grid. <br/>
+						</p>
+						<p>
+							I attempted to use threading to make the program run faster. I was unsuccessful and in most cases, the use of threading ended up making the program run slower.
+						</p>
+						<p>
+							I have no plans to return to this project, although it was an interesting assignment that forced me to think outside the box. If I were to return, I would focus on the threading aspect as that is the area where I did not obtain as firm a grasp as I would've have to have.
+						</p>
+						<article class="item" style="width: 1000px; margin:auto;">
+							<div class="image fit"><img src="images/CP-UI.png" alt="User Interface of Combinatorial Problem Solver" /></div>
 							<header>
-								<h2>Combinatorial Problem</h2>
-								<h4>Technologies used: <strong> C++ </strong> </h4>
-								<h5> <a href="https://github.com/Towers-D/CSC8501-Coursework" class="icon brands fa-github"> Github Repository </a> </h5>
+								Image of the program after calculating the number of continuous rows for a random puzzle.
 							</header>
+						</article>
 
-							<article class="item fif" style="margin:auto;">
-								<div class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/15-puzzle_magical.svg/220px-15-puzzle_magical.svg.png" alt="Picture of 15-Puzzle" /></div>
-								
-								<header>
-									Image of 15-Puzzle, from <a href="https://en.wikipedia.org/wiki/15_puzzle" class="icon brands fa-wikipedia-w"> Wikipedia </a>
-								</header>
-							</article>
+					</div>
+				</section>
 
-							<p>
-								For my 'Advanced Programming for Games' module. I was given the task to write a program that could calculate the number of possible consecutive rows and columns (including inverse) that could appear on a given configuration of a <a href="https://en.wikipedia.org/wiki/15_puzzle"> 15-Puzzle </a>. <br/>
-							</p>
-							<p>
-								I originally made a brute force approach to solve this problem, however, the coursework specified that we should be able to modify the code to allow for puzzles of X by X size. I realised that it would not be suitable to bruteforce puzzles of a larger size, and figured out that using an equation involving factorials would generate more correct results. <br/>
-							</p>
-							<p>
-								Even after implementing the equation, a problem was that the numbers generated from puzzles larger than a 6 by  6 grid generated results that were bigger than an unsigned long long. To solve this problem I used an external library, <a href="https://sercantutar.github.io/infint/"> InfInt by Sercan Tutar</a>, which allowed puzzles up to, much larger sizes such as  a 50 by 50 grid. <br/>
-							</p>
-							<p>
-								I attempted to use threading to make the program run faster. I was unsuccessful and in most cases, the use of threading ended up making the program run slower.
-							</p>
-							<p>
-								I have no plans to return to this project, although it was an interesting assignment that forced me to think outside the box. If I were to return, I would focus on the threading aspect as that is the area where I did not obtain as firm a grasp as I would've have to have.
-							</p>
-							<article class="item" style="width: 1000px; margin:auto;">
-								<div class="image fit"><img src="images/CP-UI.png" alt="User Interface of Combinatorial Problem Solver" /></div>
-								<header>
-									Image of the program after calculating the number of continuous rows for a random puzzle.
-								</header>
-							</article>
+			<!-- Landscape in Open GL -->
+				<section id="landscape" class="two">
+					<div class="container" style="text-align: center;">
 
-						</div>
-					</section>
+						<header>
+							<h2>Landscape in OpenGL</h2>
+							<h4>Technologies used: <strong>C++ | GLSL</strong>
+							<h5> <a href="https://github.com/Towers-D/CSC8502-Graphics" class="icon brands fa-github"> Github Repository </a> </h5>
+						</header>
 
-				<!-- Landscape in Open GL -->
-					<section id="landscape" class="three">
-						<div class="container" style="text-align: center;">
-
+						<article class="item" style="width:854px; margin:auto;">
+							<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/xp9R4gXOWOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
 							<header>
-								<h2>Landscape in OpenGL</h2>
-								<h4>Technologies used: <strong>C++ | GLSL</strong>
-								<h5> <a href="https://github.com/Towers-D/CSC8502-Graphics" class="icon brands fa-github"> Github Repository </a> </h5>
+								Landscape Video
 							</header>
+						</article>
 
-							<article class="item" style="width:854px; margin:auto;">
-								<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/xp9R4gXOWOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-								</iframe>
-								<header>
-									Landscape Video
-								</header>
-							</article>
-
-							<p>
-								For my 'Advanced Graphics for Games' module, I used <strong> OpenGL </strong> and <strong> GLSL </strong> to generate
-								a changing landscape. Using a Tesselation Shader I was able to turn a quad into many points, which when combined with a geometry shader, allowed me to generate an effect looking like rain. Using glScissor I was able to remove an area of the screen which had been rendered, so I could then render a minimap in the location I cut out.
-							</p>
-							<p>
-								This project was made to a deadline. It is mostly complete, however, there are a few additions I would make if I were to continue development on this project I would...
-								<div class="divCard">
-									<ul>
-										<li> make the rain bigger, as due to compression it is not very visible in the YouTube video. </li>
-										<li> add a greater fog effect when it starts raining.  </li>
-										<li> find a higher quality model for the tree. </li>
-										<li> use post-processing to produce a bloom effect </li>
-									</ul>
-								</div>
-							</p>
-							<article class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/LS-SS.png" alt="Screenshot of Landscape" /></div>
-								<header>
-									Screenshot of the landscape
-								</header>
-							</article>
-
-						</div>
-					</section>
-					
-					<!-- Unoriginal Goose Game -->
-					<section id="goose" class="two">
-						<div class="container" style="text-align: center;">
-
-							<header>
-								<h2>Unoriginal Goose Game</h2>
-								<h4>Technologies used: <strong> C++ </strong> </h4>
-								<h5> <a href="https://github.com/Towers-D/CSC8503-Simulations" class="icon brands fa-github"> Github Repository </a> </h5>
-							</header>
-
-							<article class="item" style="width:854px; margin:auto;">
-								<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/foNWs-gfAv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-								</iframe>
-								<header>
-									Game Trailer Style Video
-								</header>
-							</article>
-
-							<p>
-								For my 'Advanced Game Technologies' I was given a specification for a game inspired by <a href="https://goose.game">Untitled Goose Game</a>. The purpose of this assignment was to implement features commonly found in games, the assignment was split into two parts <strong> Physics </strong> and <strong> Networking</strong>.
-							</p>
-
-							<p>
-								As part of implementing Physics, I implemented a collision detection system which worked for AABB/AABB, AABB/Shere, Sphere/Sphere and, Sphere/OBB collisions. I used constraints to make a rope bridge that droops and to make a gate that opens when a player attempts to walk through it.
-							</p>
-							<p>
+						<p>
+							For my 'Advanced Graphics for Games' module, I used <strong> OpenGL </strong> and <strong> GLSL </strong> to generate
+							a changing landscape. Using a Tesselation Shader I was able to turn a quad into many points, which when combined with a geometry shader, allowed me to generate an effect looking like rain. Using glScissor I was able to remove an area of the screen which had been rendered, so I could then render a minimap in the location I cut out.
+						</p>
+						<p>
+							This project was made to a deadline. It is mostly complete, however, there are a few additions I would make if I were to continue development on this project I would...
+							<div class="divCard">
 								<ul>
-									<li> AABB - Axis Aligned Bounding Box. </li>
-									<li> OBB - Oriented Bounding Box. </li>
+									<li> make the rain bigger, as due to compression it is not very visible in the YouTube video. </li>
+									<li> add a greater fog effect when it starts raining.  </li>
+									<li> find a higher quality model for the tree. </li>
+									<li> use post-processing to produce a bloom effect </li>
 								</ul>
-							</p>
-							<p>
-								The game also allows networking, one player hosts a game as a server, and allows another player (client) to connect. Player position is sent using packets between both players to allow move and collide with each other.
-							</p>
-							<p>
-								The project was limited by time, unfortunately, this meant that there were bugs leftover in the code, most notably in the networking section. Players can not see when other players drop items, or when enemies are chasing other players. To fix this I could send a message to the server when a player drops their current item. I would also need to change the AI for the enemies to make sure they check both players. However, instead, to improve this project I would:
-								<div class="divCard">
-									<ul>
-										<li> Calculate the physics and game state on the server then send the position of the objects to each player using delta packets instead. </li>
-										<li> I would also, add artificial lag to the server owner to prevent an unfair advantage due to 0 ping. </li>
-										<li> I would either attempt to implement more OBB collisions myself or replace the code I implemented with a physics engine, such as PhysX </li>
-									</ul>
-								</div>
-							</p>
-
-							<article class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/UGG/game.png" alt="Screenshot of Goose Game" /></div>
-								<header>
-									Screenshot from inside the game
-								</header>
-							</article>
-						</div>
-					</section>
-
-					<!-- Weird Golf Game -->
-					<section id="golf" class="three">
-						<div class="container" style="text-align: center;">
-
+							</div>
+						</p>
+						<article class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/LS-SS.png" alt="Screenshot of Landscape" /></div>
 							<header>
-								<h2>Weird Golf Game</h2>
-								<h3> Prototype</h3>
-								<h4>Technologies used: <strong> C# | <span class="fab fa-unity"></span> Unity </strong> </h4>
-								<h5> <a href="https://gitlab.com/Zoko11/golf-game-prototype" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
+								Screenshot of the landscape
 							</header>
-
-							<article class="item" style="width:854px; margin:auto;">
-								<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/Lj3-bZujq8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-								</iframe>
-								<header>
-									Game Trailer Style Video
-								</header>
-							</article>
-							<br/>
-							<article class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/WGG/menu.png" alt="Menu from the Prototype" /></div>
-								<header>
-									Screenshot of Weird Golf Game menu
-								</header>
-							</article>
-
-							<p>
-								As part of our group project, we have been asked to make a Golf Game with unusual/interesting effects. We were asked to make a prototype using an engine such as <a href="https://unity.com">Unity</a>. I focused on rotating the floor and letting gravity move the player, instead of traditional player movement. I made two levels using this concept. One which moves the floor respective to the view of the camera, i.e. Pressing the forward key makes the floor directly in front go down, so the player rolls forward (<a href="#Maze">Level 1 - Maze</a>) and another which moves the rotates the floor either left or right as the player rolls downhill to a goal (<a href="#Downhill">Level 2 - Downhill</a>).
-							</p>
-
-							<p>
-								For a prototype, I am happy with the outcome. Both levels, while small, are enjoyable and work as intended. We have not made any decisions as a team as to whether or not we are using this as a mechanic for a level yet. However, doing so has made the option easier to implement if we do decide to.
-							</p>
-
-							<article id="Maze" class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/WGG/maze.png" alt="Screenshot from Level 2 of the Golf Game Prototype" /></div>
-								<header>
-									Screenshot from Level 1 of the Golf Game Prototype
-								</header>
-							</article>
-							<br/>
-							<article id="Downhill" class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/WGG/hill.png" alt="Screenshot from Level 2 of the Golf Game Prototype" /></div>
-								<header>
-									Screenshot from Level 2 of the Golf Game Prototype
-								</header>
-							</article>
-
-						</div>
-					</section>
-
-					<!-- Water Conservation Game -->
-					<section id="water" class="four">
-						<div class="container" style="text-align: center;">
-
-							<header>
-								<h2>Water Conservation Game</h2>
-								<h4>Technologies used: <strong> C# | <span class="fab fa-unity"></span> Unity </strong> </h4>
-								<!-- <h5> <a href="https://gitlab.com/Zoko11/golf-game-prototype" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5> -->
-							</header>
-
-                            <article class="item" style="width:1000px; margin:auto;">
-								<div class="image fit"><img src="images/MSC.png" alt="Menu from the Prototype" /></div>
-								<header>
-									Screenshot of Water Conservation Game
-								</header>
-							</article>
-
-							<p>
-								For my MSc dissertation I had the task of developing a game to help educate kids how they can conserve water in their every day life. I used Unity to make the game, as I have experience in Unity and thought I would be able to do more overall using Unity rather than Unreal which I not used before, or build it from the ground up, which would have been time consuming. Using Unity allowed me to use the asset store, however, this project required unqiue assets, and I do not have the skills required to create models, I did learn how to make simlpe animations in Blender for 3d models.
-							</p>
-
-							<p>
-								The game was made up of two mini-games that had the player perform everyday actions (brushing teeth and cleaning dishes) where performing the action well earned points, while using water lost points. The actions that conserved water, where very simple choices; while brushing their teeth, not rinsing the brush before hand is the most opitmal solution and is how the most points can be accumulated, while washing dishes simply required the player to put in the plug. These actions, are what water companies and other sources suggest are how many households can save litres of water.
-							</p>
-
-							<p>
-								While the game is very rudimentory, and development was impacted by the COVID-19 Pandemic over the first UK lockdown, I pleased with what is there and I believe it met the original breif. However, I believe the quality was impacted be several factors including the assets that I used, especially because they were not all in the same art style.
-							</p>
-						</div>
-					</section>
+						</article>
+					</div>
+				</section>
 			</div>
 
 		<!-- Footer -->
