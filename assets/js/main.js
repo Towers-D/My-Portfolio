@@ -64,8 +64,8 @@
 				// Scrollex.
 					$section.scrollex({
 						mode: 'middle',
-						top: '-10vh',
-						bottom: '-10vh',
+						top: '-1vh',
+						bottom: '-1vh',
 						initialize: function() {
 
 							// Deactivate section.
@@ -110,7 +110,7 @@
 		// Header.
 			$('#header')
 				.panel({
-					delay: 500,
+					delay: 900,
 					hideOnClick: true,
 					hideOnSwipe: true,
 					resetScroll: true,
