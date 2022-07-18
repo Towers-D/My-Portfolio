@@ -2305,9 +2305,12 @@ input, select, textarea {
 				position: absolute;
 				bottom: 0px;
 				right: 0px;
+				margin:auto;
 				padding: 0 10px;
+				line-height: 2em;
 				background: rgba(0, 0, 0, 0.3);
 			}
+
 			
 			.contact img {
 				box-shadow: 0px 0px 5px #000;
