@@ -36,6 +36,9 @@
 								<li><a href="#E2EE" id="projects-link"><span class="icon solid fa-comment-dots">E2EE Plugin</span></a></li>
 								<li><a href="#fifteen" id="projects-link"><span class="icon solid fa-puzzle-piece">Combinatorial Problem</span></a></li>
 								<li><a href="#landscape" id="projects-link"><span class="icon solid fa-mountain">OpenGL Landscape</span></a></li>
+								<li><a href="#goose" id="projects-link"><span class="icon solid fa-feather">Unoriginal Goose Game</span></a></li>
+								<li><a href="#golf" id="projects-link"><span class="icon solid fa-golf-ball">Weird Golf Game</span></a></li>
+								<li><a href="#water" id="projects-link"><span class="icon solid fa-tint">Water Conservation Game</span></a></li>
 							</ul>
 						</nav>
 
@@ -257,6 +260,142 @@
 								Screenshot of the landscape
 							</header>
 						</article>
+					</div>
+
+				</section>
+				<!-- Unoriginal Goose Game -->
+				<section id="goose" class="three">
+					<div class="container" style="text-align: center;">
+
+						<header>
+							<h2>Unoriginal Goose Game</h2>
+							<h4>Technologies used: <strong> C++ </strong> </h4>
+							<h5> <a href="https://github.com/Towers-D/CSC8503-Simulations" class="icon brands fa-github"> Github Repository </a> </h5>
+						</header>
+
+						<article class="item" style="width:854px; margin:auto;">
+							<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/foNWs-gfAv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+							<header>
+								Game Trailer Style Video
+							</header>
+						</article>
+
+						<p>
+							For my 'Advanced Game Technologies' I was given a specification for a game inspired by <a href="https://goose.game">Untitled Goose Game</a>. The purpose of this assignment was to implement features commonly found in games, the assignment was split into two parts <strong> Physics </strong> and <strong> Networking</strong>.
+						</p>
+
+						<p>
+							As part of implementing Physics, I implemented a collision detection system which worked for AABB/AABB, AABB/Shere, Sphere/Sphere and, Sphere/OBB collisions. I used constraints to make a rope bridge that droops and to make a gate that opens when a player attempts to walk through it.
+						</p>
+						<p>
+							<ul>
+								<li> AABB - Axis Aligned Bounding Box. </li>
+								<li> OBB - Oriented Bounding Box. </li>
+							</ul>
+						</p>
+						<p>
+							The game also allows networking, one player hosts a game as a server, and allows another player (client) to connect. Player position is sent using packets between both players to allow move and collide with each other.
+						</p>
+						<p>
+							The project was limited by time, unfortunately, this meant that there were bugs leftover in the code, most notably in the networking section. Players can not see when other players drop items, or when enemies are chasing other players. To fix this I could send a message to the server when a player drops their current item. I would also need to change the AI for the enemies to make sure they check both players. However, instead, to improve this project I would:
+							<div class="divCard">
+								<ul>
+									<li> Calculate the physics and game state on the server then send the position of the objects to each player using delta packets instead. </li>
+									<li> I would also, add artificial lag to the server owner to prevent an unfair advantage due to 0 ping. </li>
+									<li> I would either attempt to implement more OBB collisions myself or replace the code I implemented with a physics engine, such as PhysX </li>
+								</ul>
+							</div>
+						</p>
+
+						<article class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/UGG/game.png" alt="Screenshot of Goose Game" /></div>
+							<header>
+								Screenshot from inside the game
+							</header>
+						</article>
+					</div>
+				</section>
+
+				<!-- Weird Golf Game -->
+				<section id="golf" class="four">
+					<div class="container" style="text-align: center;">
+
+						<header>
+							<h2>Weird Golf Game</h2>
+							<h3> Prototype</h3>
+							<h4>Technologies used: <strong> C# | <span class="fab fa-unity"></span> Unity </strong> </h4>
+							<h5> <a href="https://gitlab.com/Zoko11/golf-game-prototype" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5>
+						</header>
+
+						<article class="item" style="width:854px; margin:auto;">
+							<iframe class="image fit" style="width:854px; height:480px;" src="https://www.youtube.com/embed/Lj3-bZujq8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+							</iframe>
+							<header>
+								Game Trailer Style Video
+							</header>
+						</article>
+						<br/>
+						<article class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/WGG/menu.png" alt="Menu from the Prototype" /></div>
+							<header>
+								Screenshot of Weird Golf Game menu
+							</header>
+						</article>
+
+						<p>
+							As part of our group project, we have been asked to make a Golf Game with unusual/interesting effects. We were asked to make a prototype using an engine such as <a href="https://unity.com">Unity</a>. I focused on rotating the floor and letting gravity move the player, instead of traditional player movement. I made two levels using this concept. One which moves the floor respective to the view of the camera, i.e. Pressing the forward key makes the floor directly in front go down, so the player rolls forward (<a href="#Maze">Level 1 - Maze</a>) and another which moves the rotates the floor either left or right as the player rolls downhill to a goal (<a href="#Downhill">Level 2 - Downhill</a>).
+						</p>
+
+						<p>
+							For a prototype, I am happy with the outcome. Both levels, while small, are enjoyable and work as intended. We have not made any decisions as a team as to whether or not we are using this as a mechanic for a level yet. However, doing so has made the option easier to implement if we do decide to.
+						</p>
+
+						<article id="Maze" class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/WGG/maze.png" alt="Screenshot from Level 2 of the Golf Game Prototype" /></div>
+							<header>
+								Screenshot from Level 1 of the Golf Game Prototype
+							</header>
+						</article>
+						<br/>
+						<article id="Downhill" class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/WGG/hill.png" alt="Screenshot from Level 2 of the Golf Game Prototype" /></div>
+							<header>
+								Screenshot from Level 2 of the Golf Game Prototype
+							</header>
+						</article>
+
+					</div>
+				</section>
+
+				<!-- Water Conservation Game -->
+				<section id="water" class="three">
+					<div class="container" style="text-align: center;">
+
+						<header>
+							<h2>Water Conservation Game</h2>
+							<h4>Technologies used: <strong> C# | <span class="fab fa-unity"></span> Unity </strong> </h4>
+							<!-- <h5> <a href="https://gitlab.com/Zoko11/golf-game-prototype" class="icon brands fa-gitlab"> Gitlab Repository </a> </h5> -->
+						</header>
+
+						<article class="item" style="width:1000px; margin:auto;">
+							<div class="image fit"><img src="images/MSC.png" alt="Menu from the Prototype" /></div>
+							<header>
+								Screenshot of Water Conservation Game
+							</header>
+						</article>
+
+						<p>
+							For my MSc dissertation I had the task of developing a game to help educate kids how they can conserve water in their every day life. I used Unity to make the game, as I have experience in Unity and thought I would be able to do more overall using Unity rather than Unreal which I not used before, or build it from the ground up, which would have been time consuming. Using Unity allowed me to use the asset store, however, this project required unqiue assets, and I do not have the skills required to create models, I did learn how to make simlpe animations in Blender for 3d models.
+						</p>
+
+						<p>
+							The game was made up of two mini-games that had the player perform everyday actions (brushing teeth and cleaning dishes) where performing the action well earned points, while using water lost points. The actions that conserved water, where very simple choices; while brushing their teeth, not rinsing the brush before hand is the most opitmal solution and is how the most points can be accumulated, while washing dishes simply required the player to put in the plug. These actions, are what water companies and other sources suggest are how many households can save litres of water.
+						</p>
+
+						<p>
+							While the game is very rudimentory, and development was impacted by the COVID-19 Pandemic over the first UK lockdown, I pleased with what is there and I believe it met the original breif. However, I believe the quality was impacted be several factors including the assets that I used, especially because they were not all in the same art style.
+						</p>
 					</div>
 				</section>
 			</div>
