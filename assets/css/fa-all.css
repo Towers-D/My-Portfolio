@@ -12,7 +12,7 @@
 .fab,
 .fa-solid,
 .fa-regular,
-.brands,
+.fa-brands,
 .fa {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -38,7 +38,7 @@
 .fa-regular {
   font-family: 'Font Awesome 6 Free'; }
 
-.brands,
+.fa-brands,
 .fab {
   font-family: 'Font Awesome 6 Brands'; }
 
@@ -6253,7 +6253,7 @@ readers do not read off random characters that represent icons */
   src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype"); }
 
 .fab,
-.brands {
+.fa-brands {
   font-weight: 400; }
 
 .fa-monero {

@@ -180,6 +180,8 @@ input, select, textarea {
 		}
 
 	footer {
+		position: absolute;
+		bottom: 0px;
 		margin: 2em 0 0 0;
 	}
 
