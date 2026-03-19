@@ -33,6 +33,17 @@ body {
 	line-height: 1;
 }
 
+#main > #top8 {
+    padding-bottom: 0;
+	height: calc(100vh);
+}
+
+#iframe {
+    margin: 0;
+	width: 100%;
+	
+}
+
 .divCard {
 	text-align: left;
 	background-color: white;
