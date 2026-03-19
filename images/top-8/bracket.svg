@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Background">
+        <g id="Finals">
+            <g id="Finals1" serif:id="Finals" transform="matrix(0.728935,4.93038e-32,0,0.982442,768,1.7053e-13)">
+                <rect x="0" y="0" width="526.796" height="1099.3" style="fill:rgb(255,207,210);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,810.929,31.536)">
+                <text x="69.996px" y="81.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Finals</text>
+            </g>
+        </g>
+        <g id="Semi-Finals">
+            <g transform="matrix(0.728935,4.93038e-32,0,0.982442,1152,-1.7053e-13)">
+                <rect x="0" y="0" width="526.796" height="1099.3" style="fill:rgb(207,228,255);"/>
+            </g>
+            <g transform="matrix(0.728935,4.93038e-32,0,0.982442,384,3.97904e-13)">
+                <rect x="0" y="0" width="526.796" height="1099.3" style="fill:rgb(207,228,255);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,426.929,6.53595)">
+                <text x="81.521px" y="81.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Semi</text>
+                <text x="69.996px" y="131.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Finals</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1194.93,6.53595)">
+                <text x="81.521px" y="81.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Semi</text>
+                <text x="69.996px" y="131.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Finals</text>
+            </g>
+        </g>
+        <g id="Round-1" serif:id="Round 1">
+            <g transform="matrix(0.728935,4.93038e-32,0,0.982442,2.27374e-13,1.13687e-13)">
+                <rect x="0" y="0" width="526.796" height="1099.3" style="fill:rgb(209,228,160);"/>
+            </g>
+            <g transform="matrix(0.728935,4.93038e-32,0,0.982442,1536,0)">
+                <rect x="0" y="0" width="526.796" height="1099.3" style="fill:rgb(209,228,160);"/>
+            </g>
+            <g>
+                <g transform="matrix(1,0,0,1,44.6535,4.66095)">
+                    <text x="45.146px" y="81.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Quar<tspan x="174.846px 195.746px " y="81.827px 81.827px ">te</tspan>r</text>
+                    <text x="69.996px" y="131.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Finals</text>
+                </g>
+                <g transform="matrix(1,0,0,1,1580.65,4.66095)">
+                    <text x="45.146px" y="81.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Quar<tspan x="174.846px 195.746px " y="81.827px 81.827px ">te</tspan>r</text>
+                    <text x="69.996px" y="131.827px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:50px;">Finals</text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Final" transform="matrix(1,0,0,1,684.19,258.699)">
+        <g id="Backgroun" transform="matrix(0.779436,0,0,1,27.9821,-5.68434e-14)">
+            <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.43px;"/>
+        </g>
+        <g id="Matchup" transform="matrix(1,0,0,1,-42.1479,0)">
+            <g transform="matrix(1,0,0,1,-223.445,-47.8613)">
+                <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">S2 W<tspan x="538.977px " y="409.437px ">i</tspan>nner</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-15.5968,-88.1706)">
+                <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-204.076,-90.574)">
+                <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">S<tspan x="428.384px " y="316.901px ">1</tspan> W<tspan x="514.184px " y="316.901px ">i</tspan>nner</text>
+            </g>
+        </g>
+    </g>
+    <g id="Semi-2" serif:id="Semi 2" transform="matrix(1,0,0,1,1056.42,364.437)">
+        <g id="Backgroun1" serif:id="Backgroun" transform="matrix(-0.748187,9.16265e-17,-1.22465e-16,-1,499.145,562.603)">
+            <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.48px;"/>
+        </g>
+        <g id="Name" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,592.508,562.603)">
+            <g transform="matrix(0.691049,0,0,1,70.8285,92.8842)">
+                <rect x="93.77" y="82.679" width="76.195" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.58px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-224.911,592.321)">
+                <text x="233.345px" y="401.831px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">Semi 2</text>
+                <rect x="233.345" y="406.831" width="155.35" height="2.5"/>
+            </g>
+        </g>
+        <g id="Matchup1" serif:id="Matchup" transform="matrix(1,0,0,1,-94.8025,0)">
+            <g transform="matrix(1,0,0,1,-139.147,-47.8613)">
+                <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">[5-8]th</text>
+            </g>
+            <g transform="matrix(1,0,0,1,22.5008,-88.1706)">
+                <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-180.128,-90.574)">
+                <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">GB W<tspan x="542.234px " y="316.901px ">i</tspan>nner</text>
+            </g>
+        </g>
+    </g>
+    <g id="Semi-1" serif:id="Semi 1" transform="matrix(1,0,0,1,288.42,152.961)">
+        <g id="Backgroun2" serif:id="Backgroun" transform="matrix(0.748187,0,0,1,76.0156,0)">
+            <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.48px;"/>
+        </g>
+        <g id="Name1" serif:id="Name" transform="matrix(1,0,0,1,-17.3472,5.11591e-13)">
+            <g transform="matrix(0.691049,0,0,1,70.8285,92.8842)">
+                <rect x="93.77" y="82.679" width="76.195" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.58px;"/>
+            </g>
+            <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-224.911,589.996)">
+                <text x="233.345px" y="401.831px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">Semi 1</text>
+                <rect x="233.345" y="406.831" width="150.7" height="2.5"/>
+            </g>
+        </g>
+        <g id="Matchup2" serif:id="Matchup" transform="matrix(1,0,0,1,-42.1479,0)">
+            <g transform="matrix(1,0,0,1,-139.147,-47.8613)">
+                <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">[5-8]th</text>
+            </g>
+            <g transform="matrix(1,0,0,1,22.5008,-88.1706)">
+                <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+            </g>
+            <g transform="matrix(1,0,0,1,-179.203,-90.574)">
+                <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">GA W<tspan x="540.384px " y="316.901px ">i</tspan>nner</text>
+            </g>
+        </g>
+    </g>
+    <g id="Round-1-Matches" serif:id="Round 1 Matches" transform="matrix(1,0,0,1,-1.13687e-13,-74.4718)">
+        <g id="Group-D" serif:id="Group D" transform="matrix(1,0,0,1,1452.19,625.151)">
+            <g id="Background1" serif:id="Background" transform="matrix(-0.580068,7.10378e-17,-1.22465e-16,-1,422.149,562.603)">
+                <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.76px;"/>
+            </g>
+            <g id="Name2" serif:id="Name" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,551.62,562.603)">
+                <g transform="matrix(1,0,0,1,33.0966,92.8842)">
+                    <rect x="93.77" y="82.679" width="76.195" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.08px;"/>
+                </g>
+                <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-224.911,610.321)">
+                    <text x="233.345px" y="401.831px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">Gr<tspan x="285.895px " y="401.831px ">o</tspan>up D</text>
+                    <rect x="233.345" y="406.831" width="191.35" height="2.5"/>
+                </g>
+            </g>
+            <g id="Matchup3" serif:id="Matchup" transform="matrix(1,0,0,1,-118.343,0)">
+                <g transform="matrix(1,0,0,1,-139.147,-47.8613)">
+                    <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">[5-8]th</text>
+                </g>
+                <g transform="matrix(1,0,0,1,22.5008,-88.1706)">
+                    <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-130.978,-90.574)">
+                    <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">3r<tspan x="445.734px 479.634px 492.984px " y="316.901px 316.901px 316.901px ">d/4</tspan>th</text>
+                </g>
+            </g>
+        </g>
+        <g id="Group-C" serif:id="Group C" transform="matrix(1,0,0,1,-83.8099,592.937)">
+            <g id="Backgroun3" serif:id="Backgroun" transform="matrix(0.580068,0,0,1,129.47,0)">
+                <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.76px;"/>
+            </g>
+            <g id="Name3" serif:id="Name">
+                <g transform="matrix(1,0,0,1,33.0966,92.8842)">
+                    <rect x="93.77" y="82.679" width="76.195" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.08px;"/>
+                </g>
+                <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-224.911,609.596)">
+                    <text x="233.345px" y="401.831px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">Gr<tspan x="285.895px " y="401.831px ">o</tspan>up C</text>
+                    <rect x="233.345" y="406.831" width="189.9" height="2.5"/>
+                </g>
+            </g>
+            <g id="Matchup4" serif:id="Matchup" transform="matrix(1,0,0,1,-42.1479,0)">
+                <g transform="matrix(1,0,0,1,-139.147,-47.8613)">
+                    <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">[5-8]th</text>
+                </g>
+                <g transform="matrix(1,0,0,1,22.5008,-88.1706)">
+                    <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-130.978,-90.574)">
+                    <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">3r<tspan x="445.734px 479.634px 492.984px " y="316.901px 316.901px 316.901px ">d/4</tspan>th</text>
+                </g>
+            </g>
+        </g>
+        <g id="Group-B" serif:id="Group B" transform="matrix(1,0,0,1,1452.19,74.4366)">
+            <g id="Backgroun4" serif:id="Backgroun" transform="matrix(-0.580068,7.10378e-17,-1.22465e-16,-1,422.149,562.603)">
+                <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.76px;"/>
+            </g>
+            <g id="Name4" serif:id="Name" transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,551.62,562.603)">
+                <g transform="matrix(1,0,0,1,33.0966,92.8842)">
+                    <rect x="93.77" y="82.679" width="76.195" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.08px;"/>
+                </g>
+                <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-224.911,609.096)">
+                    <text x="233.345px" y="401.831px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">Gr<tspan x="285.895px " y="401.831px ">o</tspan>up B</text>
+                    <rect x="233.345" y="406.831" width="188.9" height="2.5"/>
+                </g>
+            </g>
+            <g id="Matchup5" serif:id="Matchup" transform="matrix(1,0,0,1,-118.343,0)">
+                <g transform="matrix(1,0,0,1,-139.147,-47.8613)">
+                    <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">[5-8]th</text>
+                </g>
+                <g transform="matrix(1,0,0,1,22.5008,-88.1706)">
+                    <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-72.9284,-90.574)">
+                    <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">1st</text>
+                </g>
+            </g>
+        </g>
+        <g id="Group-A" serif:id="Group A" transform="matrix(1,0,0,1,-83.8099,74.4366)">
+            <g id="Backgroun5" serif:id="Backgroun" transform="matrix(0.580068,0,0,1,129.47,0)">
+                <rect x="126.866" y="175.563" width="382.183" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.76px;"/>
+            </g>
+            <g id="Name5" serif:id="Name">
+                <g transform="matrix(1,0,0,1,33.0966,92.8842)">
+                    <rect x="93.77" y="82.679" width="76.195" height="211.476" style="fill:rgb(235,235,235);stroke:black;stroke-width:3.08px;"/>
+                </g>
+                <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-224.911,609.296)">
+                    <text x="233.345px" y="401.831px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">Gr<tspan x="285.895px " y="401.831px ">o</tspan>up <tspan x="387.395px " y="401.831px ">A</tspan></text>
+                    <rect x="233.345" y="406.831" width="187.85" height="2.5"/>
+                </g>
+            </g>
+            <g id="Matchup6" serif:id="Matchup" transform="matrix(1,0,0,1,-42.1479,0)">
+                <g transform="matrix(1,0,0,1,-139.147,-47.8613)">
+                    <text x="412.077px" y="409.437px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">[5-8]th</text>
+                </g>
+                <g transform="matrix(1,0,0,1,22.5008,-88.1706)">
+                    <text x="302.43px" y="384.085px" style="font-family:'Raleway-Regular', 'Raleway';font-size:50px;">V<tspan x="333.68px " y="384.085px ">s</tspan>.</text>
+                </g>
+                <g transform="matrix(1,0,0,1,-72.9284,-90.574)">
+                    <text x="398.134px" y="316.901px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:50px;">1st</text>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.845745,0.300629,-0.46822,1.31722,176.319,-222.789)">
+        <g transform="matrix(1.04975,-0.239584,0.373145,0.674011,-101.959,192.405)">
+            <path d="M559.798,240.835L576,315.65L506.427,283.723C530.491,286.343 557.177,264.9 559.798,240.835Z"/>
+            <path d="M353.189,280.249C353.189,280.249 396.139,253.265 447.086,250.916C475.765,249.593 507.055,256.42 534.183,281.548C538.927,285.691 546.141,285.203 550.284,280.46C554.428,275.716 553.94,268.502 549.197,264.358C523.01,242.801 494.718,234.265 467.556,233.37C403.753,231.265 347.167,271.267 347.167,271.267C344.689,272.929 344.026,276.29 345.687,278.769C347.349,281.248 350.71,281.911 353.189,280.249Z"/>
+        </g>
+    </g>
+    <g transform="matrix(-0.777333,-0.448793,0.698982,-1.21067,1639.58,1362.28)">
+        <g transform="matrix(-0.964838,0.357663,-0.557049,-0.619491,2340.79,257.502)">
+            <path d="M1346.39,836.887L1344,760.375L1406.64,804.372C1383.45,797.437 1353.32,813.694 1346.39,836.887Z"/>
+            <path d="M1556.72,835.533C1556.72,835.533 1509.59,854.295 1459.06,847.381C1430.62,843.488 1401.08,831.11 1378.95,801.485C1375.04,796.552 1367.85,795.725 1362.92,799.64C1357.99,803.554 1357.16,810.738 1361.07,815.672C1382.92,841.615 1409.2,855.131 1435.75,860.931C1498.12,874.552 1561.01,845.457 1561.01,845.457C1563.75,844.272 1565.01,841.086 1563.83,838.347C1562.64,835.609 1559.46,834.348 1556.72,835.533Z"/>
+        </g>
+    </g>
+    <g transform="matrix(0.845745,0.300629,-0.46822,1.31722,581.16,-62.7537)">
+        <g transform="matrix(1.04975,-0.239584,0.373145,0.674011,-586.657,181.534)">
+            <path d="M951.113,348.442L960,424.474L893.842,385.965C917.54,390.902 946.176,372.14 951.113,348.442Z"/>
+            <path d="M757.002,431.705C757.002,431.705 785.291,364.288 830.204,344.327C855.904,332.904 886.559,339.601 921.012,385.711C924.905,390.662 932.085,391.521 937.036,387.627C941.986,383.734 942.845,376.554 938.952,371.604C905.517,331.182 875.169,319.018 849.314,321.439C823.022,323.901 800.672,341.615 783.79,362.712C760.061,392.367 746.952,427.712 746.952,427.712C745.851,430.486 747.207,433.632 749.981,434.734C752.754,435.835 755.9,434.479 757.002,431.705Z"/>
+        </g>
+    </g>
+    <g transform="matrix(-0.867002,-0.232313,0.361819,-1.35033,1377.44,1120.74)">
+        <g transform="matrix(-1.07614,0.18514,-0.28835,-0.690952,1805.48,519.358)">
+            <path d="M974.601,729.223L960,654.08L1028.88,687.485C1004.87,684.351 977.735,705.22 974.601,729.223Z"/>
+            <path d="M1163.34,648.797C1163.34,648.797 1138.92,716.353 1093.11,732.205C1068.53,740.709 1038.36,732.291 1001.85,689.842C997.625,685.172 990.403,684.812 985.733,689.039C981.064,693.265 980.704,700.487 984.93,705.157C1031.69,754.256 1069.81,759.748 1099.01,747.954C1118.66,740.019 1134.57,723.929 1146.46,706.778C1164.68,680.47 1173.57,652.295 1173.57,652.295C1174.53,649.472 1173.03,646.395 1170.2,645.43C1167.38,644.465 1164.3,645.973 1163.34,648.797Z"/>
+        </g>
+    </g>
+    <g transform="matrix(0.845745,0.300629,-0.46822,1.31722,176.319,315.943)">
+        <g transform="matrix(1.04975,-0.239584,0.373145,0.674011,-302.984,-170.706)">
+            <path d="M538.777,614.511L576,547.622L607.178,617.534C590.833,599.678 556.633,598.167 538.777,614.511Z"/>
+            <path d="M350.73,809.221C350.73,809.221 434.855,802.017 502.779,747.505C541.061,716.782 574.065,671.191 584.88,603.945C585.765,597.71 581.421,591.929 575.185,591.044C568.949,590.159 563.168,594.504 562.284,600.739C554.681,662.533 525.94,705.225 492.011,734.586C429.38,788.785 349.626,798.464 349.626,798.464C346.657,798.769 344.495,801.426 344.8,804.395C345.105,807.363 347.762,809.526 350.73,809.221Z"/>
+        </g>
+    </g>
+    <g transform="matrix(-0.867002,-0.232313,0.361819,-1.35033,1786.31,739.109)">
+        <g transform="matrix(-1.07614,0.18514,-0.28835,-0.690952,2135.44,179.971)">
+            <path d="M1376.36,454.862L1344,524.236L1307.92,456.725C1325.49,473.37 1359.71,472.439 1376.36,454.862Z"/>
+            <path d="M1568.7,270.721C1568.7,270.721 1481.8,275.334 1413.23,324.785C1372.28,354.312 1338.01,399.592 1331.14,468.56C1330.63,474.838 1335.31,480.347 1341.59,480.856C1347.87,481.365 1353.38,476.681 1353.88,470.404C1357.78,408.027 1387.4,366.213 1423.32,338.242C1486.84,288.767 1569.45,281.508 1569.45,281.508C1572.43,281.3 1574.68,278.715 1574.47,275.738C1574.26,272.761 1571.68,270.513 1568.7,270.721Z"/>
+        </g>
+    </g>
+</svg>
